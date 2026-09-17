@@ -171,3 +171,32 @@ h3 {
   border-color: var(--gold);
   color: var(--gold) !important;
 }
+/* Hero */
+.hero {
+  position: relative;
+  padding: 5rem 1.5rem 6rem;
+  text-align: center;
+  overflow: hidden;
+  background: radial-gradient(
+    circle at 50% -10%,
+    rgba(122, 46, 58, 0.35),
+    transparent 60%
+  );
+}
+
+.hero__content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.hero__subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 2.25rem;
+}
