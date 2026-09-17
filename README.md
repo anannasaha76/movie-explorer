@@ -1,16 +1,50 @@
-# React + Vite
+# 🎬 MovieExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive web application for discovering movies and TV shows
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎬 **Cinematic Hero Section**: Elegant homepage layout featuring smooth branding, call-to-action buttons, and clear structure.
+- 🔍 **Live Search with Debounce**: Instant movie search querying the TVMaze API in real time.
+- 🍿 **Interactive Movie Modal**: Detailed popup dialog displaying show ratings, premiered year, genres, summary, and status.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Frontend**: React
+- **Build Tool**: Vite
+- **Styling**: CSS
+- **Data Source**: TVMaze API
+- **Linter**: Oxlint
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js] installed.
+
+### Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/anannasaha76/movie-explorer.git
+   cd movie-explorer
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+---
+
