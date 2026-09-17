@@ -34,6 +34,8 @@ export default function MovieListing() {
   useEffect(() => {
     if (!query.trim()) {
       setResults(allShows);
+      setLoading(false);
+      setError(null);
       return;
     }
 
@@ -54,7 +56,7 @@ export default function MovieListing() {
       cancelled = true;
       clearTimeout(timer);
     };
-  }, [query]);
+  }, [query, allShows]);
 
   return (
     <>
